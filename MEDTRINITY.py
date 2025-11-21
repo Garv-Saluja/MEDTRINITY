@@ -7,9 +7,10 @@ import pandas as pd
 # ================================================================
 # Load Models
 # ================================================================
-heart_model = pickle.load(open(r'C:\Users\Admin\Desktop\MEDTRINITY\SAVED MODELS\MEDTRINITY_Heart.sav', 'rb'))
-diabetes_model = pickle.load(open(r'C:\Users\Admin\Desktop\MEDTRINITY\SAVED MODELS\MEDTRINITY_Diabetes.sav', 'rb'))
-parkinsons_model = pickle.load(open(r'C:\Users\Admin\Desktop\MEDTRINITY\SAVED MODELS\MEDTRINITY_Parkinsons.sav', 'rb'))
+heart_model = pickle.load(open('SAVED MODELS/MEDTRINITY_Heart.sav', 'rb'))
+diabetes_model = pickle.load(open('SAVED MODELS/MEDTRINITY_Diabetes.sav', 'rb'))
+parkinsons_model = pickle.load(open('SAVED MODELS/MEDTRINITY_Parkinsons.sav', 'rb'))
+
 
 # ================================================================
 # Page Config + Custom Styling
